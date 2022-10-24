@@ -1,5 +1,7 @@
 package dev;
 
+import com.github.lalyos.jfiglet.FigletFont;
+
 /**
  * Hello world!
  *
@@ -10,5 +12,8 @@ public class App
     {
         System.out.println( "Hello World!" );
  
+        
+        String asciiArt = FigletFont.convertOneLine("App");
+        System.out.println(asciiArt);
     }
 }
